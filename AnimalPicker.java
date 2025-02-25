@@ -16,8 +16,11 @@ public class AnimalPicker{
             }else if(choice.toLowerCase().equals("dog")){
                 System.out.println("         ,--._______,-. \n       ,\',\'  ,    .  ,_`-. \n      / /  ,\' , _` ``. |  )       `-.. \n     (,\';\'\"\"`/ \'\"`-._ ` \\/ ______    \\\\ \n       : ,o.-`- ,o.  )\\` -\'      `---.)) \n       : , d8b ^-.   \'|   `.      `    `. \n       |/ __:_     `. |  ,  `       `    \\ \n       | ( ,-.`-.    ;\'  ;   `       :    ; \n       | |  ,   `.      /     ;      :    \\ \n       ;-\'`:::._,`.__),\'             :     ; \n      / ,  `-   `--                  ;     | \n     /  \\                   `       ,      | \n    (    `     :              :    ,\\      | \n     \\   `.    :     :        :  ,\'  \\    : \n      \\    `|-- `     \\ ,\'    ,-\'     :-.-\'; \n      :     |`--.______;     |        :    : \n       :    /           |    |         |   \\ \n       |    ;           ;    ;        /     ; \n     _/--\' |           :`-- /         \\_:_:_| \n   ,\',\',\'  |           |___ \\ \n   `^._,--\'           / , , .) \n                      `-._,-\' \n");
                 break;
+            }else if(choice.toLowerCase().equals("fish")){
+                System.out.println("         .\'|_.-\n         .\'  \'  /_\n      .-\"    -.   \'>\n   .- -. -.    \'. /    /|_\n  .-.--.-.       \' >  /  /\n (o( o( o )       \\_.\"  <\n  \'-\'-\'\'-\'            ) <\n(       _.-\'-.   ._\\.  _\\\n \'----\"/--.__.-) _-  \\|\n       \"V\"\"    \"V\"");
+                break;
             }else{
-                System.out.println("Invalid Option! Enter Dog or Cat.");
+                System.out.println("Invalid Option! Enter Dog, Cat, or Fish.");
                 choice = scan.nextLine();
             }
         }
